@@ -1,0 +1,73 @@
+.footer {
+    margin-top: 20px;
+    padding: 30px 0px;
+    background-color: var(--dark_color);
+    color: var(--text_color);
+}
+
+.footer p {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.icon-wrap {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-media-icon {
+    margin-right: 20px;
+    width: 24px;
+    height: 24px;
+}
+
+.footer .menu-item {
+    list-style-type: none;
+    float: left;
+    font-size: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-right: 1px solid white;
+    height: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .menu-item:nth-child(1) {
+    padding-left: 0px;
+}
+
+.footer .menu-item:nth-child(6) {
+    border-right: none;
+}
+
+.appstore-icon {
+    margin-left: 20px;
+    width: 130px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.footer p {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        text-align: center;
+    }
+    .footer-flex-center {
+        display: flex;
+        align-items: center!important;
+        justify-content: center!important;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .appstore-icon {
+        width: 30%;
+    }
+}

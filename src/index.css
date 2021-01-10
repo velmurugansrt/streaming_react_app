@@ -1,0 +1,59 @@
+:root {
+  --primary_color: #018fff;
+  --accent_color: #414141;
+  --border_color: #696969;
+  --dark_color: #1e1e1e;
+  --primary_text_color: #018fff;
+  --text_color: #fff;
+  --accent_text_color: #1e1e1e;
+}
+
+@import './assets/css/HeaderComponent.css';
+@import './assets/css/FooterComponent.css';
+@import './assets/css/CardComponent.css';
+body {
+  margin: 0;
+  font-family: RalewayRegular;
+}
+
+.body-padding {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.container-body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.full-height {
+  min-height: 100%;
+}
+
+.main-app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.loader {
+  margin-top: 40px;
+  flex: 1;
+}
+
+@media screen and (max-width: 522px) {
+  .header-flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: 100%;
+  }
+}
+
+@font-face {
+  font-family: RalewayRegular;
+  src: url('./assets/fonts/Raleway-Regular.ttf');
+}
